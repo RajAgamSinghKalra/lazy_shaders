@@ -1,7 +1,7 @@
 // File: shaders/composite.fsh
 #version 330 compatibility
 
-in vec4 texcoord;
+in vec2 texCoordOut;
 flat in vec3 colorSkyUp;
 #include "lib/Settings.inc"
 #include "lib/Uniforms.inc"

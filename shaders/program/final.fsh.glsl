@@ -3,7 +3,7 @@
 #include "../lib/Settings.inc"
 #include "../lib/Uniforms.inc"
 #include "../lib/Common.inc"
-in vec4 texcoord;
+in vec2 texCoordOut;
 vec3 ACESFilm(vec3 x) {
     float a = 2.51;
     float b = 0.03;
@@ -13,7 +13,7 @@ vec3 ACESFilm(vec3 x) {
     return clamp((x*(a*x+b))/(x*(c*x+d)+e), 0.0, 1.0);
 }
 void main(){
- vec3 color = texture(colortex0, texcoord.xy).rgb;
+ vec3 color = texture(colortex0, texCoordOut.xy).rgb;
  color = ACESFilm(color);
  gl_FragColor = vec4(color, 1.0);
 }
