@@ -23,3 +23,8 @@ uniform sampler2D colortex4;
 uniform sampler2D colortex5;
 uniform sampler2D colortex6;
 uniform sampler2D colortex7;
+// Additional samplers used by some shader programs
+uniform sampler2D depthtex1;
+uniform sampler2D terrain;
+uniform sampler2D terrain_n;
+uniform sampler2D terrain_s;
