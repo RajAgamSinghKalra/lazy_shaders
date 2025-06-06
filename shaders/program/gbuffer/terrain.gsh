@@ -1,8 +1,8 @@
 // File: shaders/program/gbuffers_terrain.gsh.glsl
 layout(triangles) in;
 layout(triangle_strip, max_vertices = 3) out;
-in vec4 gbufferCoord[];
-in vec3 gbufferNormal[];
+in vec4 gbufferCoordIn[];
+in vec3 gbufferNormalIn[];
 out vec4 gbufferCoord;
 out vec3 gbufferNormal;
 void main(){
