@@ -1,7 +1,6 @@
 // File: shaders/program/final.fsh.glsl
 #extension GL_ARB_gpu_shader5 : enable
 #include "../lib/Settings.inc"
-in vec2 texCoordOut;
 vec3 ACESFilm(vec3 x) {
     float a = 2.51;
     float b = 0.03;
