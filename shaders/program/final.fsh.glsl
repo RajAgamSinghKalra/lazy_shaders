@@ -1,7 +1,6 @@
 // File: shaders/program/final.fsh.glsl
 #extension GL_ARB_gpu_shader5 : enable
 #include "../lib/Settings.inc"
-#include "../lib/Uniforms.inc"
 in vec2 texCoordOut;
 vec3 ACESFilm(vec3 x) {
     float a = 2.51;
@@ -14,5 +13,5 @@ vec3 ACESFilm(vec3 x) {
 void main(){
  vec3 color = texture(colortex0, texCoordOut.xy).rgb;
  color = ACESFilm(color);
- gl_FragColor = vec4(color, 1.0);
+ fragColor = vec4(color, 1.0);
 }
