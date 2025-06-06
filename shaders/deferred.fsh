@@ -1,3 +1,3 @@
 // File: shaders/deferred.fsh
-#version 330 compatibility
-#include "program/deferred.fsh.glsl"
+#version 430 compatibility
+#include "/program/deferred/fragmentComplex.fsh"

@@ -1,3 +1,3 @@
 // File: shaders/gbuffers_spidereyes.vsh
-#version 330 compatibility
-#include "program/gbuffers_spidereyes.vsh.glsl"
+#version 430 compatibility
+#include "/program/gbuffer/spidereyes.vsh"

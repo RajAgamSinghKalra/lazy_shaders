@@ -1,3 +1,3 @@
 // File: shaders/gbuffers_skybasic.fsh
-#version 330 compatibility
-#include "program/gbuffers_skybasic.fsh.glsl"
+#version 430 compatibility
+#include "/program/gbuffer/sky.fsh"
