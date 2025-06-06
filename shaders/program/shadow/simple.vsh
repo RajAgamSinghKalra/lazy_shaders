@@ -1,5 +1,4 @@
 // File: shaders/program/shadow.vsh.glsl
-#version 330 compatibility
 layout(location = 0) in vec4 position;
 uniform mat4 modelViewMatrix;
 uniform mat4 projectionMatrix;
