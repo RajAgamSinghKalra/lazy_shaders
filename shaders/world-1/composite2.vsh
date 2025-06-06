@@ -1,3 +1,3 @@
 // File: shaders/world-1/composite2.vsh
 #version 330 compatibility
-#include "program/composite2.vsh.glsl"
+#include "../program/composite2.vsh.glsl"
