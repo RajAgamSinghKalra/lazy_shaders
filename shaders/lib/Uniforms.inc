@@ -4,6 +4,9 @@ uniform mat4 gbufferPreviousModelView;
 uniform mat4 gbufferProjectionInverse;
 uniform vec2 ScreenSize;
 uniform float timerMs;
+// Dimensions of the current viewport
+uniform int viewWidth;
+uniform int viewHeight;
 uniform sampler2D noise2D;
 uniform sampler2D noisetex;
 uniform sampler2D depthtex0;
