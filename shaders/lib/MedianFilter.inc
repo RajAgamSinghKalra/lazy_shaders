@@ -1,0 +1,2 @@
+// File: shaders/lib/MedianFilter.inc
+float Median9(float c0,float c1,float c2,float c3,float c4,float c5,float c6,float c7,float c8){float m0=min(c0,c1);float m1=max(c0,c1);float m2=min(c2,c3);float m3=max(c2,c3);float m4=min(c4,c5);float m5=max(c4,c5);float m6=min(c6,c7);float m7=max(c6,c7);float m8=min(m1,m3);float m9=min(m5,m7);float mA=max(m1,m3);float mB=max(m5,m7);float mC=min(m8,m9);float mD=max(mA,mB);float mE=min(c8,mD);return max(mC,mE);}

@@ -1,0 +1,9 @@
+// File: shaders/lib/Settings.inc
+const float shadowDistance=90.0;
+const int shadowMapResolution=8192;
+const float shadowIntervalSize=4.0;
+const bool shadowHardwareFiltering=true;
+const bool shadowLightSpace=false;
+const float aoLevel=0.8;
+const float fogStart=0.8;
+const float fogEnd=1.0;
