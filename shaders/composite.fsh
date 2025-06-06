@@ -6,7 +6,6 @@ flat in vec3 colorSkyUp;
 #include "lib/Settings.inc"
 #include "lib/Uniforms.inc"
 #include "lib/Common.inc"
-#include "lib/Materials.inc"
 #include "lib/GBufferData.inc"
 layout(location = 0) out vec3 FragColor0;
 layout(location = 1) out vec3 FragColor1;
