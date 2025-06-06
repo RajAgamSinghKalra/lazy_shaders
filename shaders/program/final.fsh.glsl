@@ -2,7 +2,6 @@
 #extension GL_ARB_gpu_shader5 : enable
 #include "../lib/Settings.inc"
 #include "../lib/Uniforms.inc"
-#include "../lib/Common.inc"
 in vec2 texCoordOut;
 vec3 ACESFilm(vec3 x) {
     float a = 2.51;
