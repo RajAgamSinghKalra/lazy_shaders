@@ -1,5 +1,5 @@
 // File: shaders/gbuffers_block.fsh
-#version 330 compatibility
+#version 430 compatibility
 
-#include "lib/Better3DTextures.glsl"
-#include "program/gbuffers_block.fsh.glsl"
+#include "/program/gbuffer/solid.fsh"
+#include "/program/gbuffer/solid.fsh"

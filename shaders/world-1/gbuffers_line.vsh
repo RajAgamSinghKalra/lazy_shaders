@@ -1,3 +1,3 @@
 // File: shaders/world-1/gbuffers_line.vsh
-#version 330 compatibility
-#include "program/gbuffers_line.vsh.glsl"
+#version 430 compatibility
+#include "/program/gbuffer/line.vsh"

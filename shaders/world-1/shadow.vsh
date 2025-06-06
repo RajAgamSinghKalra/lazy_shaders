@@ -1,3 +1,3 @@
 // File: shaders/world-1/shadow.vsh
-#version 330 compatibility
-#include "program/shadow.vsh.glsl"
+#version 430 compatibility
+#include "/program/shadow/simple.vsh"

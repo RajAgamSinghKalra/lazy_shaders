@@ -1,3 +1,3 @@
 // File: shaders/world-1/gbuffers_entities_glowing.fsh
-#version 330 compatibility
-#include "program/gbuffers_entities_glowing.fsh.glsl"
+#version 430 compatibility
+#include "/program/gbuffer/entities_glowing.fsh"

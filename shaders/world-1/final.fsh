@@ -1,3 +1,3 @@
 // File: shaders/world-1/final.fsh
-#version 330 compatibility
-#include "program/final.fsh.glsl"
+#version 430 compatibility
+#include "/program/grade/final.fsh"
