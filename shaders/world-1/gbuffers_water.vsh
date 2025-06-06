@@ -1,3 +1,3 @@
 // File: shaders/world-1/gbuffers_water.vsh
 #version 430 compatibility
-#include "/program/gbuffer/solid.vsh"
+#include "../program/gbuffer/solid.vsh"
