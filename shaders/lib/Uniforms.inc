@@ -23,3 +23,6 @@ uniform sampler2D colortex7;
 uniform sampler2D terrain;
 uniform sampler2D terrain_n;
 uniform sampler2D terrain_s;
+#ifndef LAZY_TERRAIN_SAMPLERS_DEFINED
+#define LAZY_TERRAIN_SAMPLERS_DEFINED
+#endif
