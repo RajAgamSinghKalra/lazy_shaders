@@ -1,8 +1,8 @@
 // File: shaders/program/final.fsh.glsl
 #extension GL_ARB_gpu_shader5 : enable
-#include "lib/Settings.inc"
-#include "lib/Uniforms.inc"
-#include "lib/Common.inc"
+#include "../lib/Settings.inc"
+#include "../lib/Uniforms.inc"
+#include "../lib/Common.inc"
 in vec4 texcoord;
 vec3 ACESFilm(vec3 x) {
     float a = 2.51;
