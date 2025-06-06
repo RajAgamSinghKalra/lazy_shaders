@@ -2,6 +2,19 @@
 #include "DataPacking.inc"
 #include "TAA.inc"
 
+// Default ray tracing grid settings used when the loader does not provide them
+#ifndef RAY_TRACING_DIAMETER
+#define RAY_TRACING_DIAMETER 16
+#endif
+
+#ifndef RAY_TRACING_RESOLUTION
+#define RAY_TRACING_RESOLUTION RAY_TRACING_DIAMETER
+#endif
+
+#ifndef altRTDiameter
+#define altRTDiameter RAY_TRACING_DIAMETER
+#endif
+
 #define SKYLIGHT_BRIGHTNESS 1.0
 #define MOON_BRIGHTNESS 1.0
 #define SUNLIGHT_RED 1.15
